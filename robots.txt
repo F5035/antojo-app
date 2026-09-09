@@ -1,0 +1,5 @@
+# ANTOJO — PRE-LANZAMIENTO: no indexar todavia.
+# >>> PARA SALIR A BUSCADORES: cambiar "Disallow: /" por "Allow: /" (o borrar el Disallow)
+#     y quitar el <meta name="robots" noindex> del index.html. <<<
+User-agent: *
+Disallow: /
