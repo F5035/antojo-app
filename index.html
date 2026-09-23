@@ -8,7 +8,7 @@
     <!-- Seguridad (M-3): CSP parcial vía meta. Restringe a dónde se conecta/carga la página.
          Nota: frame-ancestors / HSTS necesitan headers reales (no se pueden en GitHub Pages);
          para eso hay que mover el hosting a Vercel/Netlify/Cloudflare. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://*.supabase.co https://api.pwnedpasswords.com; base-uri 'self'; form-action 'self'" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://*.supabase.co https://antojo-backend.onrender.com https://api.pwnedpasswords.com; base-uri 'self'; form-action 'self'" />
     <!-- ══════════════════════════════════════════════════════════════════════
          INTERRUPTOR DE INDEXACIÓN (pre-lanzamiento).
          Mientras esta línea `noindex` esté acá, Google/Bing NO indexan la página
